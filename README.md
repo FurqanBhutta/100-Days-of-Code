@@ -8,6 +8,8 @@ Become a job-ready Full Stack MERN Developer by building projects and learning c
 Progress
 
 - Day 1 - HTML Fundamentals
+- Day 2 - Simple CV with HTML
+- Day 3 - Fundamentals of CSS
 
 ## Technologies
 - HTML
