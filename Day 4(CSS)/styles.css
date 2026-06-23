@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    padding: 20px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+.section-one{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.paragraph{
+    line-height: 1.5;
+}
+
+.section-two{
+    background-color: aquamarine;
+    margin-top: 20px;
+    padding: 20px;;
+}
+.section-two p:last-child{
+    color: brown;
+}
