@@ -10,6 +10,8 @@ Progress
 - Day 1 - HTML Fundamentals
 - Day 2 - Simple CV with HTML
 - Day 3 - Fundamentals of CSS
+- Day 4 - Text and Fonts Styling
+- Day 5 - Display Properties and box Styling
 
 ## Technologies
 - HTML

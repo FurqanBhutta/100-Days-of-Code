@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: silver;
+}
+
+.card{
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 30px;
+    background-color: rgb(49, 48, 48);
+    box-shadow:  10px 15px rgba(0, 0, 0, 0.3);
+}
+.name{
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.content{
+    padding: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50%);
+}
+.content p{
+    margin-top: 15px;
+}
+.stats{
+    margin-top: 15px;
+    text-align: center;
+}
+.posts, .followers, .following{
+    display: inline-block;
+    
+}
+.followers{
+    margin: 0 30px;
+}
+.number{
+    display: block;
+    font-size: larger;
+}
+.buttons{
+    margin-top: 15px;
+}
+.btn{
+    padding: 12px;
+    border-radius: 20px;
+    width: 49%;
+    font-size: 15px;
+}
+#follow-btn{
+    color: white;
+    background-color: rgb(0, 81, 255);
+}
+#message-btn{
+    background-color: white;
+}
