@@ -13,6 +13,7 @@ Progress
 - Day 4 - Text and Fonts Styling
 - Day 5 - Display Properties and box Styling
 - Day 6 - FlexBox
+- Day 7 - Image Galley with Grid
 
 ## Technologies
 - HTML
