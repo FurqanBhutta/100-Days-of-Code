@@ -12,6 +12,8 @@ Progress
 - Day 3 - Fundamentals of CSS
 - Day 4 - Text and Fonts Styling
 - Day 5 - Display Properties and box Styling
+- Day 6 - FlexBox
 
 ## Technologies
 - HTML
+- CSS
