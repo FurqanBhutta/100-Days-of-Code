@@ -14,6 +14,7 @@ Progress
 - Day 5 - Display Properties and box Styling
 - Day 6 - FlexBox
 - Day 7 - Image Galley with Grid
+- Day 8 - Solar System
 
 ## Technologies
 - HTML
