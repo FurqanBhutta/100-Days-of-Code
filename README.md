@@ -15,7 +15,9 @@ Progress
 - Day 6 - FlexBox
 - Day 7 - Image Galley with Grid
 - Day 8 - Solar System
+- Day 9 - Counter App
 
 ## Technologies
 - HTML
 - CSS
+- JavaScript
