@@ -16,6 +16,7 @@ Progress
 - Day 7 - Image Galley with Grid
 - Day 8 - Solar System
 - Day 9 - Counter App
+- Day 10 - Grade Calculator
 
 ## Technologies
 - HTML
