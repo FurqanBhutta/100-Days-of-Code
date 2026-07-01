@@ -17,6 +17,8 @@ Progress
 - Day 8 - Solar System
 - Day 9 - Counter App
 - Day 10 - Grade Calculator
+- Day 11 - Dice Game
+- Day 12 - Weather API
 
 ## Technologies
 - HTML
