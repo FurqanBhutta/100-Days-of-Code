@@ -19,8 +19,11 @@ Progress
 - Day 10 - Grade Calculator
 - Day 11 - Dice Game
 - Day 12 - Weather API
+- Day 13 - Starting Express
+- Day 14 - Express Routes
 
 ## Technologies
 - HTML
 - CSS
 - JavaScript
+- Express
