@@ -21,9 +21,14 @@ Progress
 - Day 12 - Weather API
 - Day 13 - Starting Express
 - Day 14 - Express Routes
+- Day 15 - Middleware
+- Day 16 - Middleware(continue)
+---Little Break---
+- Day 17 - File System 
 
 ## Technologies
 - HTML
 - CSS
 - JavaScript
+- Node js
 - Express
