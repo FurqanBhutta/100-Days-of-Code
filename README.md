@@ -26,6 +26,8 @@ Progress
 ---Little Break---
 - Day 17 - File System 
 - Day 18 - Student Management
+- Day 19 - EJS & Bootstrap
+- Day 20 - Car Gallery [Database]
 
 ## Technologies
 - HTML
