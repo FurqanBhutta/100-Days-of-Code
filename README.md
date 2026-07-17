@@ -28,6 +28,7 @@ Progress
 - Day 18 - Student Management
 - Day 19 - EJS & Bootstrap
 - Day 20 - Car Gallery [Database]
+- Day 21 - Car Gallery(continue)
 
 ## Technologies
 - HTML
@@ -35,3 +36,5 @@ Progress
 - JavaScript
 - Node js
 - Express
+- MongoDB
+- Mongoose
