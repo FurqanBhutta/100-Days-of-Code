@@ -29,6 +29,8 @@ Progress
 - Day 19 - EJS & Bootstrap
 - Day 20 - Car Gallery [Database]
 - Day 21 - Car Gallery(continue)
+- Day 22 - Consulting App
+- Day 23 - Hosting Practice
 
 ## Technologies
 - HTML
@@ -38,3 +40,4 @@ Progress
 - Express
 - MongoDB
 - Mongoose
+- Ubuntu Linux

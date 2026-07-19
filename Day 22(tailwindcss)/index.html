@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold text-black-900">
+          Consulting
+        </div>       
+        <ul class="hidden md:flex space-x-8 text-gray-800 font-medium">
+          <li><a href="#home" class="hover:text-red-500">Home</a></li>
+          <li><a href="#service" class="hover:text-red-500">Services</a></li>
+          <li><a href="#about" class="hover:text-red-500">About</a></li>
+          <li><a href="#team" class="hover:text-red-500">Team</a></li>
+          <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+        </ul>
+        <div class="md:hidden">
+          <button onClick={toggleMenu}>
+            {isOpen ? <X class="w-6 h-6" /> : <Menu class="w-6 h-6" />}
+          </button>
+        </div>
+      </div>
+        <div class="md:hidden bg-white px-4 pb-4">
+          <ul class="flex flex-col space-y-4 text-gray-800 font-medium">
+            <li><a href="#home" onClick={toggleMenu}>Home</a></li>
+            <li><a href="#about" onClick={toggleMenu}>About</a></li>
+            <li><a href="#services" onClick={toggleMenu}>Services</a></li>
+            <li><a href="#blog" onClick={toggleMenu}>Blog</a></li>
+            <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <section id='home' class="bg-[url(./Images/hero.webp)] bg-center  text-black  px-8 py-16  min-h-screen ">
+        <div class="max-w-7xl mx-auto pt-20">
+            <div class="max-w-7xl lg:max-w-2xl">
+          <p class="text-2xl text-red-500 font-semibold mb-2">----- COMMITTED TO SUCCESS</p>
+          <h1 class="text-7xl font-extrabold leading-tight mb-4 ">We help to grow your business</h1>
+          <p class="text-gray-600 my-10">
+            Mollit anim laborum. Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nulla parihatur.
+          </p>
+          <button class="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 cursor-pointer">OUR SERVICES</button>
+          </div>
+        </div>
+      </section>
+
+      <section id='team' class="bg-gray-50 py-30 px-8 max-w-7xl mx-auto">
+        <p class="text-2xl text-red-800 font-semibold  mb-2">----- OUR Professional Members</p>
+        <h2 class="text-6xl font-bold  mb-10 text-slate-700">Our Team Mambers</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="rounded shadow hover:shadow-xl text-slate-900  transform transition duration-300 hover:scale-105 cursor-pointer">
+                <img src="./src/Images/team1.webp" alt="image1" class='w-full'/>
+                <h3 class="text-2xl font-bold  my-2 ms-10">Ethan Welch</h3>
+                <p class='ms-10 text-red-800'>--- UX Designer</p>
+            </div>
+            <div class="rounded shadow hover:shadow-xl text-slate-900  transform transition duration-300 hover:scale-105 cursor-pointer">
+                <img src="./src/Images/team2.webp" alt="image1" class='w-full'/>
+                <h3 class="text-2xl font-bold  my-2 ms-10">Ethan Welch</h3>
+                <p class='ms-10 text-red-800'>--- UX Designer</p>
+            </div>
+            <div class="rounded shadow hover:shadow-xl text-slate-900  transform transition duration-300 hover:scale-105 cursor-pointer">
+                <img src="./src/Images/team3.webp" alt="image1" class='w-full'/>
+                <h3 class="text-2xl font-bold  my-2 ms-10">Ethan Welch</h3>
+                <p class='ms-10 text-red-800'>--- UX Designer</p>
+            </div>
+        </div>
+      </section>
+
+</body>
+</html>
