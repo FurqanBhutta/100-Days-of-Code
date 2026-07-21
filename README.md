@@ -31,6 +31,8 @@ Progress
 - Day 21 - Car Gallery(continue)
 - Day 22 - Consulting App
 - Day 23 - Hosting Practice
+- Day 24 - Start React js
+- Day 25 - Fetch API and map the data
 
 ## Technologies
 - HTML
@@ -41,3 +43,5 @@ Progress
 - MongoDB
 - Mongoose
 - Ubuntu Linux
+- React
+- Tailwind
