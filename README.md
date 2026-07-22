@@ -33,6 +33,7 @@ Progress
 - Day 23 - Hosting Practice
 - Day 24 - Start React js
 - Day 25 - Fetch API and map the data
+- Day 26 - React Routing
 
 ## Technologies
 - HTML
