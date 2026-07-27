@@ -35,6 +35,7 @@ Progress
 - Day 25 - Fetch API and map the data
 - Day 26 - React Routing
 - Day 27 - form Handling in React
+- Day 28 to 30 - Todo App (Full Stack)
 
 ## Technologies
 - HTML
