@@ -36,6 +36,8 @@ Progress
 - Day 26 - React Routing
 - Day 27 - form Handling in React
 - Day 28 to 30 - Todo App (Full Stack)
+- Day 31 - React-Redux
+- Day 32 - Nextjs Start
 
 ## Technologies
 - HTML
@@ -48,3 +50,5 @@ Progress
 - Ubuntu Linux
 - React
 - Tailwind
+- Next js
+
