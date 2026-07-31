@@ -38,6 +38,9 @@ Progress
 - Day 28 to 30 - Todo App (Full Stack)
 - Day 31 - React-Redux
 - Day 32 - Nextjs Start
+- Day 33 - Dynamic routing in next js
+- Day 34 - Routing in next js
+
 
 ## Technologies
 - HTML
