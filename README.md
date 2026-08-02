@@ -40,7 +40,8 @@ Progress
 - Day 32 - Nextjs Start
 - Day 33 - Dynamic routing in next js
 - Day 34 - Routing in next js
-
+- Day 35 - Recipe project 
+- Day 36 - Recipe project (continue)
 
 ## Technologies
 - HTML
