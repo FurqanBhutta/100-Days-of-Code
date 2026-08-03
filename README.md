@@ -42,6 +42,7 @@ Progress
 - Day 34 - Routing in next js
 - Day 35 - Recipe project 
 - Day 36 - Recipe project (continue)
+- Day 37 - Recipe project (completed)
 
 ## Technologies
 - HTML
