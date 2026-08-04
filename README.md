@@ -43,6 +43,7 @@ Progress
 - Day 35 - Recipe project 
 - Day 36 - Recipe project (continue)
 - Day 37 - Recipe project (completed)
+- Day 38 - University Mangagement System (UMS)
 
 ## Technologies
 - HTML
