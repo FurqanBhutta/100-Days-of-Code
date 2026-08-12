@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const submissionSchema = new mongoose.Schema({
+const SubmissionSchema = new mongoose.Schema({
     assignmentId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Assignment",
@@ -27,4 +27,4 @@ const submissionSchema = new mongoose.Schema({
     timestamps: true
 });
 
-export default mongoose.models.Submission || mongoose.model("Submission", submissionSchema);
+export default mongoose.models.Submission || mongoose.model("Submission", SubmissionSchema);
