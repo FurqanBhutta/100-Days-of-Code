@@ -11,10 +11,6 @@ export function fail(message = "Something went wrong", status = 500, details = u
   );
 }
 
-/**
- * Wraps a route handler with a try/catch so every route returns a
- * consistent error shape instead of a raw 500 HTML page.
- */
 export function withErrorHandling(handler) {
   return async (...args) => {
     try {

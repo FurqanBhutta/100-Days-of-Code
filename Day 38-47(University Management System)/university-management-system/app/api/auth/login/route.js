@@ -1,4 +1,4 @@
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import dbConnect from "@/lib/dbConnect";
 import User from "@/Models/User";
 import { signAccessToken, signRefreshToken, setAuthCookies } from "@/lib/auth";
