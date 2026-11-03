@@ -1,4 +1,4 @@
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import dbConnect from "@/lib/dbConnect";
 import User from "@/Models/User";
 import { requireRole } from "@/lib/auth";
@@ -7,6 +7,7 @@ import { success, fail, withErrorHandling } from "@/lib/apiResponse";
 // GET /api/users?role=&isActive=&page=&limit=
 export const GET = withErrorHandling(async (request) => {
   const { error } = await requireRole(["admin"]);
+  console.log("Require role error:", error);
   if (error) return fail(error.message, error.status);
 
   await dbConnect();

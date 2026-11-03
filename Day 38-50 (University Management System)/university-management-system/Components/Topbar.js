@@ -28,7 +28,7 @@ const Topbar = ({ title }) => {
         }
     };
     return (
-        <header className="flex h-16 items-center justify-between border-b border-navy-100 bg-white px-6">
+        <header className="flex h-16 items-center justify-between border-b border-gray-100 bg-white px-6">
             <h1 className="font-display text-lg font-bold text-navy-900">{title}</h1>
 
             <div className="flex items-center gap-4">

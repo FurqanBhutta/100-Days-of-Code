@@ -52,7 +52,6 @@ const Sidebar = () => {
   const user = useSelector((state) => state.auth.user);
   const items = NAV_BY_ROLE[user?.role] || [];
   const pathname = usePathname();
-  console.log("Sidebar user:", user);
   return (
     <aside className=" w-64 shrink-0 flex-col bg-cyan-900 px-4 py-6 lg:flex">
       <div className="mb-8 flex items-center gap-2 px-2">
@@ -67,9 +66,15 @@ const Sidebar = () => {
       <nav className="flex flex-1 flex-col gap-1">
         {items.map(({ href, label, icon: Icon }) => {
           const active =
-            href === "/student"
-              ? pathname === href
-              : pathname === href || pathname.startsWith(href + "/");
+            pathname === href ||
+            (href !== "/admin" &&
+              href !== "/teacher" &&
+              href !== "/student" &&
+              pathname.startsWith(href + "/"));
+          // const active =
+          //   href === "/student"
+          //     ? pathname === href
+          //     : pathname === href || pathname.startsWith(href + "/");
           // const active = pathname === href || pathname.startsWith(href + "/");
           return (
             <Link

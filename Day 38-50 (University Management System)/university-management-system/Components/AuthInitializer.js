@@ -13,22 +13,17 @@ export default function AuthInitializer() {
     useEffect(() => {
 
         const restoreUser = async () => {
-
             try {
                 const response = await fetch("/api/auth/me");
-
                 if (!response.ok) {
                     dispatch(logout());
                     return;
                 }
-
                 const data = await response.json();
-                console.log("AuthInitializer response:", data);
-
+                // console.log("AuthInitializer response:", data);
                 if (data.success) {
                     dispatch(login(data));
                 }
-
             } catch (error) {
                 console.error("Failed to restore authentication:", error);
 

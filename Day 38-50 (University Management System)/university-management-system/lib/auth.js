@@ -62,7 +62,9 @@ export async function clearAuthCookies() {
 
 export async function getSession() {
   const cookieStore = await cookies();
+  console.log("getSession cookieStore:", cookieStore);
   const token = cookieStore.get(ACCESS_COOKIE_NAME)?.value;
+  console.log("getSession token:", token);
   if (!token) return null;
   return verifyAccessToken(token);
 }
@@ -78,7 +80,8 @@ export async function requireAuth() {
 export async function requireRole(roles = []) {
   const { session, error } = await requireAuth();
   if (error) return { session: null, error };
-
+  // console.log("Require role session:", session);
+  // console.log("Require role error:", error);
   if (roles.length > 0 && !roles.includes(session.role)) {
     return {
       session: null,
